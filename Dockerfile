@@ -11,7 +11,6 @@ EXPOSE 80
 COPY --from=builder /app/build /usr/share/nginx/html
  
 #  FROM node:alpine
-
 # WORKDIR '/app'
 
 # COPY package.json .
