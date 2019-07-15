@@ -5,8 +5,8 @@ services:
 before_install:
   - docker build -t samratluintel/docker-react .
 
-script:
-  - docker run samratluintel/docker-react npm run coverage
+# script:
+#   - docker run samratluintel/docker-react npm run coverage
 
 deploy:
   provider: elasticbeanstalk
